@@ -28,7 +28,12 @@ var counter = 0;
 for player in allPlayers {
     if player["Experience"] == "Yes" {
         print(player["Name"])
-        counter++
+        counter += 1
     }
 
 }
+
+//Create appropriate variables and logic to sort and store players into three teams: Sharks, Dragons and
+//Raptors. Store the players for each team in collection variables named 'teamSharks', 'teamDragons', and
+//'teamRaptors'. Be sure that your logic results in all teams having the same number of experienced players
+//on each.
